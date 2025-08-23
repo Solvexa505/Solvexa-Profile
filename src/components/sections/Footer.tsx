@@ -3,9 +3,18 @@ import { motion } from 'framer-motion';
 const Footer = () => {
   return (
     <footer className="py-16 relative overflow-hidden">
+      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-t from-background to-gradient-blue/5" />
-      
+
       <div className="container mx-auto px-6 relative z-10">
+        {/* Contact details top-right */}
+        <div className="absolute top-6 right-6 text-right space-y-1 hidden md:block">
+          <p className="text-sm text-foreground/60">Email: contact@solvexa.com</p>
+          <p className="text-sm text-foreground/60">Phone: +1 234 567 890</p>
+          <p className="text-sm text-foreground/60">Address: 123 Innovation Lane, Tech City</p>
+        </div>
+
+        {/* Main CTA */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -29,18 +38,19 @@ const Footer = () => {
           </motion.button>
         </motion.div>
 
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
+        {/* Footer links */}
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div>
             <h4 className="text-2xl font-bold text-primary mb-4">Solvexa</h4>
             <p className="text-foreground/60 text-sm leading-relaxed">
               Innovating the future through cutting-edge technology solutions and visionary research.
             </p>
           </div>
-          
+
           <div>
             <h5 className="font-semibold text-foreground mb-4">Company</h5>
             <ul className="space-y-2 text-sm">
-              {['About Us', 'Careers', 'News', 'Press'].map((item) => (
+              {['About Us', 'Team', 'Project'].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-foreground/60 hover:text-primary transition-colors">
                     {item}
@@ -49,20 +59,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
-          <div>
-            <h5 className="font-semibold text-foreground mb-4">Services</h5>
-            <ul className="space-y-2 text-sm">
-              {['AI Solutions', 'Cloud Computing', 'Research', 'Consulting'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-foreground/60 hover:text-primary transition-colors">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
+
           <div>
             <h5 className="font-semibold text-foreground mb-4">Connect</h5>
             <ul className="space-y-2 text-sm">
@@ -77,6 +74,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Bottom copyright */}
         <div className="border-t border-border/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-foreground/50 text-sm">

@@ -5,7 +5,7 @@ import AboutUs from '@/components/sections/AboutUs';
 import Creating from '@/components/sections/Creating';
 import Projects from '@/components/sections/Projects';
 import Innovation from '@/components/sections/Innovation';
-import Research from '@/components/sections/Research';
+import Research from '@/components/sections/Team';
 import Footer from '@/components/sections/Footer';
 
 const Index = () => {

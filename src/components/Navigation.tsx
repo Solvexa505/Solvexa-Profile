@@ -7,7 +7,7 @@ const Navigation = () => {
     { name: 'Creating', href: '#creating' },
     { name: 'Projects', href: '#projects' },
     { name: 'Innovation', href: '#innovation' },
-    { name: 'Research', href: '#research' }
+    { name: 'Team', href: '#team' }
   ];
 
   return (
