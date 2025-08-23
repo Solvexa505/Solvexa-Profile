@@ -23,7 +23,7 @@ const AboutUs = () => {
             
             <div className="grid grid-cols-2 gap-6">
               {[
-                { number: "5+", label: "Projects Delivered" },
+                { number: "1+", label: "Projects Delivered" },
                 { number: "1+", label: "Industries Served" },
                 { number: "99%", label: "Client Satisfaction" },
                 { number: "24/7", label: "Support Available" }
