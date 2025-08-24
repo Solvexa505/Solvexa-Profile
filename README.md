@@ -4,10 +4,9 @@ A modern web application for launching and managing Solvexa Wave projects.
 
 ## Features
 
-- Project creation and management
-- User authentication
+- Biography of Solvexa
 - Responsive UI
-- Integration with Solvexa Wave APIs
+- Integration with Solvexa
 
 ## Getting Started
 
@@ -19,8 +18,8 @@ A modern web application for launching and managing Solvexa Wave projects.
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/solvexa-wave-launch.git
-cd solvexa-wave-launch
+git clone https://github.com/yourusername/solvexa-profile-launch.git
+cd solvexa-profile-launch
 npm install
 ```
 
@@ -35,7 +34,7 @@ The app will be available at `http://localhost:3000`.
 ## Folder Structure
 
 ```
-solvexa-Profile-launch/
+solvexa-profile-launch/
 ├── src/
 ├── public/
 ├── package.json
@@ -48,4 +47,4 @@ Contributions are welcome! Please open issues or pull requests.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Solvexa License.
