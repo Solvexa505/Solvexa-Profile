@@ -1,4 +1,5 @@
 # Solvexa Wave Launch
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9758cc35-73ce-4fc7-b1fa-6d55215f3091/deploy-status)](https://app.netlify.com/projects/solvexa/deploys)
 
 A modern web application for launching and managing Solvexa Wave projects.
 
