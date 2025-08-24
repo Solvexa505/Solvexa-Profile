@@ -33,13 +33,16 @@ const Footer = () => {
 
         {/* CTA Button */}
         <div className="text-center mb-16">
-          <motion.button
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-gradient-blue via-gradient-violet to-gradient-teal rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-          >
-            Get In Touch
-          </motion.button>
+        <motion.a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfq83Y4emYXoAfPJboyDFoTD5Kjup0V9GVbyQsHmlQ7V315PA/viewform?usp=dialog"
+        target="_blank"
+        rel="noopener noreferrer"
+        whileHover={{ scale: 1.05, y: -2 }}
+        whileTap={{ scale: 0.95 }}
+        className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-gradient-blue via-gradient-violet to-gradient-teal rounded-full shadow-lg hover:shadow-xl transition-all duration-300 inline-block"
+        >
+        Get In Touch
+        </motion.a>
         </div>
 
         {/* Footer links */}

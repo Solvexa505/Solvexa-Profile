@@ -32,15 +32,10 @@ const HeroSection = () => {
     };
   }, []);
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section
       ref={vantaRef}
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden scroll-smooth"
     >
       {/* Hero Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
@@ -56,14 +51,14 @@ const HeroSection = () => {
           Innovating the Future, Today
         </p>
 
-        {/* Get Started Button */}
-        <button
-          className="hero-button px-12 py-4 text-lg font-semibold text-white rounded-full relative overflow-hidden group cursor-pointer"
-          onClick={() => scrollToSection("features")}
+        {/* Get Started Anchor (styled like a button) */}
+        <a
+          href="#about-us"
+          className="hero-button px-12 py-4 text-lg font-semibold text-white rounded-full relative overflow-hidden group cursor-pointer inline-block"
         >
           <span className="relative z-10">Get Started</span>
           <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-teal-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        </button>
+        </a>
       </div>
     </section>
   );
