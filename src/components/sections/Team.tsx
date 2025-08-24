@@ -15,7 +15,7 @@ const SolvexaTeam = () => {
     "Iniya",
     "Branayaga",
     "Shanmugapriya",
-    "Vasuthara",
+    "Vasunthara",
     "Pavithran S",
     "Avishikar",
     "Kavin chandran",
